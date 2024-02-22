@@ -8,7 +8,7 @@ function FoodBox(props) {
     <div>
           <p>{food.name}</p>
 
-      <img src={food.image} />
+          <img src={food.image} style={{width:300}} />
 
       <p>Calories: {food.calories}</p>
       <p>Servings {food.servings}</p>
@@ -17,7 +17,7 @@ function FoodBox(props) {
         <b>Total Calories: {food.servings*food.calories} </b> kcal
       </p>
 
-      <button onClick={() => deleteFood(id)}>Delete</button>
+      <button onClick={() => deleteFood(food.id)}>Delete</button>
     </div>
   );
 }

@@ -3,12 +3,12 @@ import "./App.css";
 // import { useState } from "react";
 // import FoodBox from "./components/FoodBox";
 import FoodList from "./components/FoodList"
+import AddFoodForm from "./components/AddFoodForm";
 
 function App() {
   // const [foods, setFoods] = useState(foodsJson);
   return (
     <div className="App">
-      <h1>LAB | React IronNutrition</h1>
       {/* <FoodBox
         food={{
           name: "Orange",
